@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_all_movies.xml">
+        <config>
+          <theme>@style/Theme.RoomDemo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fav_movies.xml">
+        <config>
+          <theme>@style/Theme.RoomDemo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ArchitechtureStarterCode</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_favorite.xml">
+        <config>
+          <theme>@style/Theme.RoomDemo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml">
+        <config>
+          <theme>@style/Theme.RoomDemo</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2531a93e-0e81-4f02-94ab-9eea9abb80ce" name="Changes" comment="convert to kotlin">
+      <change afterPath="$PROJECT_DIR$/../CoroutineLab1/app/src/main/java/com/example/coroutinelab1/Chennels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoroutineLab1/app/src/main/java/com/example/coroutinelab1/Flow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoroutineLab1/app/src/main/java/com/example/coroutinelab1/FlowEvenNumbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/androidTest/java/com/example/roomcoroutinelab5/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/NetworkUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ProductDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ProductItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ProductList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ProductRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ProductViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/RetrofitInstance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/java/com/example/roomcoroutinelab5/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/app/src/test/java/com/example/roomcoroutinelab5/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoomCoroutineLab5/gradle/libs.versions.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/ahmedelesdody/AndroidStudioProjects/iti/ArchitechtureStarterCode" value="373xbvz2i7wKAOT4g8h6fKrvYF9" />
+      <entry key="_/Users/ahmedelesdody/AndroidStudioProjects/iti/ArchitechtureStarterCode-copy" value="3AJUHv7XYtCrRZrAhmlpBhr8oX9" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="inline" value="Auto" />
+      <entry key="edit-panel" value="GPT-5 mini" />
+      <entry key="chat-panel" value="Claude Sonnet 4.6" />
+      <entry key="agent-panel" value="Claude Sonnet 4.6" />
+    </selectedModels>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LocalEmulator::path=C:\Users\monaz\.android\avd\Pixel_8_Pro_API_VanillaIceCream.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ArchitechtureStarterCode" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mvp-alex" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="starter code" />
+        <option name="rewordedMessage" value="starter code" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="f54f17b3f34afc3000086cbaf2b64a7fc62d9293" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c49b9336-3a8f-419f-ad6c-f3d90944fa61" />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\monaz\.gradle\wrapper\dists\gradle-8.13-bin\5xuhj0ry160q40clulazy9h7d\gradle-8.13" javaHome="C:\Users\monaz\Downloads\android-studio-2025.2.3.9-windows\android-studio\jbr" gradleVersion="8.13" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="373xbvz2i7wKAOT4g8h6fKrvYF9" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MOON_data/MONA_Career/iti9/Android Kotlin/ArchitechtureStarterCode-copy",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.1853769438">
+      <recent name="com.example.architechturestartercode.favmovies" />
+      <recent name="com.example.architechturestartercode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/architechturestartercode" />
+    </key>
+    <key name="android.template.-935420622">
+      <recent name="com.example.architechturestartercode.favmovies" />
+      <recent name="com.example.architechturestartercode" />
+    </key>
+    <key name="android.template.1430442261">
+      <recent name="com.example.architechturestartercode" />
+    </key>
+    <key name="android.template.-560838873">
+      <recent name="com.example.architechturestartercode.fav" />
+      <recent name="com.example.architechturestartercode" />
+    </key>
+    <key name="android.template.-1040663936">
+      <recent name="com.example.architechturestartercode.presentation.favmovies.view" />
+    </key>
+    <key name="android.template.466080605">
+      <recent name="com.example.architechturestartercode" />
+      <recent name="com.example" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.example.architechturestartercode.presentation.allmovies.view" />
+      <recent name="com.example.architechturestartercode.presentation.favmovies.view" />
+      <recent name="com.example.architechturestartercode" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.architechturestartercode.favmovies" />
+      <recent name="com.example.architechturestartercode.favourite" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ArchitechtureStarterCode.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2531a93e-0e81-4f02-94ab-9eea9abb80ce" name="Changes" comment="" />
+      <created>1716470600282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716470600282</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initialize Android project structure with basic configuration and resources">
+      <option name="closed" value="true" />
+      <created>1766145891987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766145891987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implement movie listing and details functionality with Retrofit integration">
+      <option name="closed" value="true" />
+      <created>1766239305752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766239305752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="starter code">
+      <option name="closed" value="true" />
+      <created>1766406182507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766406182507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="starter code">
+      <option name="closed" value="true" />
+      <created>1766406578128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766406578128</updated>
+    </task>
+    <task id="LOCAL-00005" summary="starter code">
+      <option name="closed" value="true" />
+      <created>1766410655410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766410655410</updated>
+    </task>
+    <task id="LOCAL-00006" summary="starter code">
+      <option name="closed" value="true" />
+      <created>1766412388260</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766412388260</updated>
+    </task>
+    <task id="LOCAL-00007" summary="starter code">
+      <option name="closed" value="true" />
+      <created>1766481694182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766481694182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mvc starter code">
+      <option name="closed" value="true" />
+      <created>1766482190272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766482190272</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: separate presenter logic and clean up AllMoviesActivity">
+      <option name="closed" value="true" />
+      <created>1768591792275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768591792275</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add AllMoviesActivity and related components for movie fetching and display&#10;&#10;- Implement AllMoviesActivity to fetch and display a list of movies.&#10;- Add ProgressBar and error TextView in activity_all_movies.xml for loading state and error handling.&#10;- Create Movie, MovieAdapter, and MoviesDao classes for data management.&#10;- Integrate Retrofit for network calls to fetch movie data.&#10;- Update AndroidManifest.xml to declare new activities and internet permission.">
+      <option name="closed" value="true" />
+      <created>1768652288177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768652288177</updated>
+    </task>
+    <task id="LOCAL-00011" summary="mvp">
+      <option name="closed" value="true" />
+      <created>1769583957182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769583957182</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add AllMoviesActivity and FavActivity with UI components and data handling">
+      <option name="closed" value="true" />
+      <created>1769597963942</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769597963942</updated>
+    </task>
+    <task id="LOCAL-00013" summary="mvp">
+      <option name="closed" value="true" />
+      <created>1770015207266</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770015207266</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1770020523886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770020523886</updated>
+    </task>
+    <task id="LOCAL-00015" summary="mvc">
+      <option name="closed" value="true" />
+      <created>1770043083281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770043083281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="mvp">
+      <option name="closed" value="true" />
+      <created>1770046023013</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770046023013</updated>
+    </task>
+    <task id="LOCAL-00017" summary="mvp">
+      <option name="closed" value="true" />
+      <created>1770987803454</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770987803454</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add FavActivity for managing favorite movies">
+      <option name="closed" value="true" />
+      <created>1770988791799</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1770988791799</updated>
+    </task>
+    <task id="LOCAL-00019" summary="MVVM + compose">
+      <option name="closed" value="true" />
+      <created>1771070827674</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771070827675</updated>
+    </task>
+    <task id="LOCAL-00020" summary="convert to kotlin">
+      <option name="closed" value="true" />
+      <created>1772309859846</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772309859846</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mvp-alex" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialize Android project structure with basic configuration and resources" />
+    <MESSAGE value="implement movie listing and details functionality with Retrofit integration" />
+    <MESSAGE value="add progress bar and error handling to movie details screen; refactor MainActivity and implement MVP pattern" />
+    <MESSAGE value="starter code" />
+    <MESSAGE value="mvc starter code" />
+    <MESSAGE value="refactor: separate presenter logic and clean up AllMoviesActivity" />
+    <MESSAGE value="add AllMoviesActivity and related components for movie fetching and display&#10;&#10;- Implement AllMoviesActivity to fetch and display a list of movies.&#10;- Add ProgressBar and error TextView in activity_all_movies.xml for loading state and error handling.&#10;- Create Movie, MovieAdapter, and MoviesDao classes for data management.&#10;- Integrate Retrofit for network calls to fetch movie data.&#10;- Update AndroidManifest.xml to declare new activities and internet permission." />
+    <MESSAGE value="add AllMoviesActivity and FavActivity with UI components and data handling" />
+    <MESSAGE value="mvc" />
+    <MESSAGE value="mvp" />
+    <MESSAGE value="add FavActivity for managing favorite movies" />
+    <MESSAGE value="add activities in compose" />
+    <MESSAGE value="MVVM + compose" />
+    <MESSAGE value="convert to kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert to kotlin" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.architechturestartercode">
+          <value>
+            <CheckInfo lastCheckTimestamp="1772449126808" />
+          </value>
+        </entry>
+        <entry key="com.example.architechturestartercode.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1772449126811" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
